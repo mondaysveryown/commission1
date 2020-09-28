@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.header:before, .header:after {
+  content: "";
+  display: table;
+}
+
+.header:after {
+  clear: both;
+}
+
+.header {
+  zoom: 1;
+}
+
+.header__video {
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  -webkit-transform: translate(50% 50%);
+          transform: translate(50% 50%);
+}
+
+.header__pictures--1 {
+  position: absolute;
+  height: auto;
+  width: 10rem;
+  top: 5rem;
+  left: 8rem;
+}
+
+.header__pictures--2 {
+  position: absolute;
+  height: auto;
+  width: 10rem;
+  top: 20%;
+  left: 20%;
+}
+
+.header__pictures--3 {
+  position: absolute;
+  height: auto;
+  width: 18rem;
+  left: 8rem;
+  bottom: 40%;
+}
+
+.header__pictures--4 {
+  position: absolute;
+  height: auto;
+  width: 10rem;
+  left: 20%;
+  bottom: 15%;
+}
+
+.header__pictures--5 {
+  position: absolute;
+  height: auto;
+  width: 15rem;
+  top: 20%;
+  right: 18%;
+}
+
+.header__pictures--6 {
+  position: absolute;
+  height: auto;
+  width: 13rem;
+  top: 2rem;
+  right: 4rem;
+}
+
+.header__pictures--7 {
+  position: absolute;
+  height: auto;
+  width: 10rem;
+  top: 40%;
+  right: 8%;
+}
+
+.header__pictures--8 {
+  position: absolute;
+  height: auto;
+  width: 10rem;
+  right: 20%;
+  bottom: 20%;
+}
+
+.navigation__nav {
+  height: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation__list {
+  list-style: none;
+}
+
+.navigation__item {
+  margin: 1rem;
+  margin-top: 3rem;
+  display: inline-block;
+}
+
+.navigation__link:link, .navigation__link:visited {
+  font-family: "Lato";
+  padding: 5rem 5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #564da1;
+}
+
+.navigation__link:hover {
+  color: #4233bd;
+  font-weight: 650;
+}
+/*# sourceMappingURL=chrismain.css.map */

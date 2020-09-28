@@ -1,0 +1,9 @@
+.DS_Store
+
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+.sass/*.DS_Store
+.img/*.DS_Store

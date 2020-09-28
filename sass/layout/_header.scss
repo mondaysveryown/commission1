@@ -1,0 +1,72 @@
+.header {
+    height: 100vh;
+    width: 100%; // move conntent around
+    display: inline-block;
+    @include group;
+    position: relative;
+
+    &__video {
+        position: absolute;
+        top: 20%;
+        left: 32%;
+        transform: translate(50% 50%);
+    }
+
+    &__pictures {
+
+        &--1 {
+            @include picture-size;
+            top: 5rem;
+            left: 8rem;
+        }
+
+        &--2 {
+            @include picture-size;
+            top: 20%;
+            left: 20%;
+        }
+
+        &--3 {
+            position: absolute;
+            height: auto;
+            width: 18rem;
+            left: 8rem;
+            bottom: 40%;
+        }
+
+        &--4 {
+            @include picture-size;
+            left: 20%;
+            bottom: 15%;
+        }
+
+        &--5 {
+            position: absolute;
+            height: auto;
+            width: 15rem;
+            top: 20%;
+            right: 18%;
+        }
+
+        &--6 {
+            position: absolute;
+            height: auto;
+            width: 13rem;
+            top: 2rem;
+            right: 4rem;
+        }
+
+        &--7 {
+            @include picture-size;
+            top: 40%;
+            right: 8%;
+        }
+
+        &--8 {
+            @include picture-size;
+            right: 20%;
+            bottom: 20%;
+        }
+    }
+
+}
