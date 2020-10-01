@@ -1,0 +1,24 @@
+.container {
+    position: absolute;
+
+    height: 75rem;
+    width: 75rem;
+    border: solid 3px $color-primary-dark;
+    top: 20%;
+    left: 24%;
+    margin-bottom: 6rem;
+
+    &__video {
+        height: 50rem;
+        width: auto;
+        float: left;
+        margin: 2rem;
+    }
+
+    &__bio {
+        margin: 2rem;
+    }
+
+    @include group;
+
+}

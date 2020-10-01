@@ -16,6 +16,10 @@ body {
           box-sizing: border-box;
 }
 
+.container__bio {
+  font-size: 2rem;
+}
+
 .u-center-text {
   text-align: center;
 }
@@ -66,6 +70,7 @@ body {
   left: 32%;
   -webkit-transform: translate(50% 50%);
           transform: translate(50% 50%);
+  z-index: 1000;
 }
 
 .header__pictures--1 {
@@ -157,8 +162,101 @@ body {
   color: #564da1;
 }
 
+.navigation__link:focus {
+  font-weight: 650;
+}
+
 .navigation__link:hover {
   color: #4233bd;
   font-weight: 650;
+}
+
+.container {
+  position: absolute;
+  height: 75rem;
+  width: 75rem;
+  border: solid 3px #4233bd;
+  top: 20%;
+  left: 24%;
+  margin-bottom: 6rem;
+}
+
+.container__video {
+  height: 50rem;
+  width: auto;
+  float: left;
+  margin: 2rem;
+}
+
+.container__bio {
+  margin: 2rem;
+}
+
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  zoom: 1;
+}
+
+.grid__box {
+  max-width: 85rem;
+  padding: 2rem 5rem;
+  border: solid 3px #000;
+  margin: 4rem auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid__box--1 {
+  height: 3rem;
+  width: 4rem;
+  border: solid 3px #000;
+  border-radius: 20%;
+  padding: 8rem;
+  margin: 1rem;
+  position: relative;
+  background: url("../img/favicon1.png");
+  background-size: cover;
+}
+
+.grid__box--2 {
+  height: 3rem;
+  width: 4rem;
+  border: solid 3px #000;
+  border-radius: 20%;
+  padding: 8rem;
+  margin: 1rem;
+}
+
+.grid__box--3 {
+  height: 3rem;
+  width: 4rem;
+  border: solid 3px #000;
+  border-radius: 20%;
+  padding: 8rem;
+  margin: 1rem;
+}
+
+.grid__box--4 {
+  height: 3rem;
+  width: 4rem;
+  border: solid 3px #000;
+  border-radius: 20%;
+  padding: 8rem;
+  margin: 1rem;
+}
+
+.sample {
+  display: block;
+  text-align: center;
+  position: absolute;
 }
 /*# sourceMappingURL=chrismain.css.map */

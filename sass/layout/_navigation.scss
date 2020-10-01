@@ -27,9 +27,16 @@
             color: $color-primary;
         }
 
+        &:focus {
+            font-weight: 650;
+        }
+
         &:hover {
             color: $color-primary-dark;
             font-weight: 650;
         }
+
+        
     }
+
 }
